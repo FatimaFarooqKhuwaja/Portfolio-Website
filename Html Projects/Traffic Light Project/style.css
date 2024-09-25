@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    background-color: #000;
+    height: 450px;
+    width: 300px;
+    padding-left: 110px;
+    padding-top: 40px;
+    padding-bottom: 180px;
+    border-radius: 80px;
+    border: 10px dotted rgb(12, 192, 66);
+    margin-top: 15px;  
+    font-size: 30px; 
+}
+.container .re{
+    background-color: red;
+    color: #fff;
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+    border: 5px solid #ede5e5e8;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial; 
+    animation: redlight 2s infinite;
+ 
+}
+.container .re:hover{
+    background-color: red;
+    font-size: 40px;
+}
+    
+.container .ye{
+    background-color: yellow;
+    color:#fff;
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial;
+    border: 5px solid #ede5e5e8; 
+    animation: yellowlight 3s infinite;
+
+}
+
+.container .ye:hover{
+    background-color: yellow;
+    font-size: 40px;
+}
+
+.container .gr{
+    background-color: green;
+    color: #fff;
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial;
+    border: 5px solid #ede5e5e8;
+    animation: greenlight 4s infinite;
+
+}
+
+.container .gr:hover{
+    background-color: green;
+    font-size: 40px;
+}
+@keyframes redlight
+{
+0%{
+background: #300;
+}
+55%{
+background:rgb(203, 84, 84);
+}
+65%{
+background:rgb(168, 37, 37);
+}
+0%{
+background: rgb(232, 28, 28);
+}
+0%{
+background: rgb(246, 5, 5);
+}
+}
+
+
+@keyframes yellowlight
+{
+0%{
+background: rgb(196, 223, 99);
+}
+55%{
+background:rgb(255, 255, 252);
+}
+65%{
+background:rgb(199, 230, 25);
+}
+0%{
+background: rgb(214, 211, 27);
+}
+0%{
+background: rgb(243, 252, 6);
+}
+}
+
+@keyframes greenlight
+{
+0%{
+background: rgb(99, 133, 99)
+}
+55%{
+background:#8dba74;
+}
+65%{
+background:rgb(95, 138, 78);
+}
+0%{
+background: rgba(46, 218, 7, 0.909);
+}
+0%{
+background: green;
+}
+}
+.red,.yellow,.green{
+    animation-duration: 5s;
+}
+
+
+

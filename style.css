@@ -1,0 +1,256 @@
+*{
+    margin: 0px;
+    padding: 3px;
+}
+
+body{
+    background-image: url(images/bg.jpg);
+    position: relative;
+    background-size: cover;   
+}
+
+.header{
+    display: flex;
+    justify-content:space-between
+}
+
+.header div .logo{
+    border-radius: 50%;
+    height : 200px;
+    width: 300px;
+}
+
+div a{
+    text-decoration: none;
+    color:white;
+    padding: 50px;
+    display: inline-block;
+    margin-top: 1%;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Arial, Helvetica;
+}
+.home:hover{
+    color: orange;
+    font-size: 40px;
+}
+    
+.projects:hover{
+    color: orange;
+    font-size: 40px;
+}
+    
+.skills:hover{
+    color: orange;
+    font-size: 40px;
+}
+
+.contactme:hover{
+    color: orange;
+    font-size: 40px;
+    
+}
+.profpic{
+    height : "200px";
+    width : "200px";
+    margin-right: 20px;
+    margin-top: 130px;
+    border-radius: 20px;
+    
+}
+.flexdiv{
+display: flex;
+justify-content: space-around;
+
+}
+
+.para1{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Arial, Helvetica;
+    margin-top: 200px;
+    margin-left: 50px;
+}
+
+p .boldname{
+    font-size:60px;
+    font-style: italic;
+    color: orange;
+}
+
+
+h2{
+    margin-top: 150;
+    margin-left:50px;
+    font-size: 35px;
+    color:white;
+}
+.para2{
+    margin-top:30px;
+    margin-left:50px;
+    font-size: 30px;
+    color: white;
+
+}
+p .quote{
+    font-size: 40px;
+    color: orange;
+    font-style: italic;
+}
+div h1:hover{
+    color:black;
+    font-size: 70px;
+}
+div h1{
+    text-align: center;
+    text-decoration: underline;
+}
+.htmldiv:hover{
+    background-color: rgb(255, 187, 0);
+    font-size: 35px;
+    padding : 2px;
+    color: black;
+
+}
+.cssdiv:hover{
+    
+        background-color: rgb(255, 187, 0);
+        font-size: 35px;
+        padding : 2px;
+        color: black
+}
+.typediv:hover{
+        background-color: rgb(255, 187, 0);
+        font-size: 35px;
+        padding : 2px;
+        color: black;
+}
+
+.htmldiv{
+    color: white;
+    font-size: 30px;
+    background-color: orange;
+    height: 300px;
+    width: 800px;
+    margin-left: 250px;
+    margin-top : 150px;
+    
+}
+.cssdiv{
+    color: white;
+    background-color: orange;
+    font-size: 30px;
+    height : 300px;
+    width : 800px;
+    margin-right : 30px;
+    margin-top : 0px;
+    margin-left: 250px;
+    margin-top : 150px;
+
+}
+
+.typediv{
+    color:white;
+    background-color: orange;
+    font-size: 30px;
+    height : 300px;
+    width : 800px;
+    margin-left: 250px;
+    margin-top : 150px;
+    margin-bottom : 100px;
+}
+.proheading{
+    text-align: center;
+    margin-top: 120px;
+    color: orange;
+    font-size : 55px;
+    text-decoration: underline;
+}
+.prodetail{
+    color : white;
+    font-size : 45px;
+    margin-left: 50px;
+    line-height: 50px;
+
+}
+.htmlprolist li a:hover{
+    color: orange;
+    font-size: 70px;
+    padding: 80px;
+    line-height: 100px;
+}
+.htmlprolist li a{
+    color : orange;
+    font-size: 50px;
+    padding: 60px;
+    line-height: 80px;
+} 
+.typehead{
+    text-align: center;
+    margin-top: 120px;
+    color: orange;
+    font-size : 70px;
+    text-decoration: underline;
+}
+.typepara{
+    color : white;
+    font-size : 45px;
+    margin-left: 50px;
+    line-height: 50px;
+
+}
+.typeprolist li a:hover{
+    color: orange;
+    font-size: 70px;
+    padding: 80px;
+    line-height: 100px;
+}
+.typeprolist li a{
+    color : orange;
+    font-size: 50px;
+    padding: 60px;
+    line-height: 80px;
+} 
+.logos p img{
+    border-radius: 50%;
+    margin-left: 70px;
+    
+}
+.logos p a{
+    font-size: 30px;
+    color: white;
+    text-decoration: underline;
+}
+.logos p a:hover {
+    font-size: 50px;
+    color:orange;
+
+}
+.logos h1:hover{
+    color : orange;
+    font-size:90px;
+}
+.logos h1{
+    color: orange;
+    font-size: 80px;
+}
+.listheadings{
+    color : gray;
+    font-size: 50px;
+    padding-left: 60px;
+    text-decoration: underline;
+}
+.marquee{
+    color: orange;
+    background-color : black;;
+    height: 100px;
+    font-size : 100px;
+    font-style : bold;
+    align-items: center;
+    padding-left : 40px;
+    width: max-content;
+    margin-bottom: 40px;
+    margin-left : 600px;
+
+}
